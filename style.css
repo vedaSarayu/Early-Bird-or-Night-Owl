@@ -1,0 +1,99 @@
+/* STYLE SECTIONING TAGS */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+
+}
+/*body { background-color:#ffe6f2;}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #0d9c90;
+  text-align: center; 
+  p.solid {border-style: solid;}
+
+}
+header {
+  text-align: center
+}
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center; 
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+ justify-content: center; 
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+ display: block;
+  
+  margin-left:auto;
+  margin-right:auto;
+  height: 10em;
+  align: center
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+}
+button{
+  padding-top: 10px;
+  padding-right: 52px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+ 
+  background-color: lightpink; /* pink */
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  
+}
+button:hover {
+  background-color:#0d9c90;
+}
+h4{
+  background-color: lightpink; /*  */
+   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+h2{
+ font-style: italic;
+color: #0d9c90;
+  font-size: 18px
+  
+}
+
+h3{
+  font-style: italic;
+color: #0d9c90;
+  font-size: 22px
+  
+}
+ 
+}
